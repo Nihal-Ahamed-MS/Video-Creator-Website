@@ -3,78 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Richi Creations</title>
-    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab&display=swap" rel="stylesheet">    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    
     <link rel="stylesheet" href="css/style.css">
+    <title style="font-family: 'Open Sans', sans-serif;">Richi Creations</title>
+
 </head>
 <body>
 
     <section class="fnavbar">
         <nav class="nav-fixed">
             <div class="nav-wrapper">
-              <a href="#" class="brand-logo" style="margin-left: 10px; font-family: 'Poppins',sans-serif;">Riche Creations</a>
+              <a href="#" class="brand-logo" style="margin-left: 5px; font-family: 'Roboto Slab',sans-serif;">Riche Creations</a>
               <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
               <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="#" >Home</a></li>
-                <li><a href="#" >About me</a></li>
-                <li><a href="#" >Services</a></li>
-                <li><a href="#service">Gallery</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#home" style="font-family: 'Roboto Slab',sans-serif;">Home</a></li>
+                <li><a href="#aboutMe" style="font-family: 'Roboto Slab',sans-serif;">About me</a></li>
+                <li><a href="#service" style="font-family: 'Roboto Slab',sans-serif;">Services</a></li>
+                <li><a href="#gallery" style="font-family: 'Roboto Slab',sans-serif;">Gallery</a></li>
+                <li><a href="#contact" style="font-family: 'Roboto Slab',sans-serif;">Contact</a></li>
               </ul>
             </div>
             
           </nav>
         
           <ul class="sidenav" id="mobile-demo">
-            <li><a href="#">Home</a></li>
-                <li><a href="#">About me</a></li>
-                <li><a href="#">Works</a></li>
-                <li><a href="#">Experience</a></li>
-                <li><a href="#contact">Contact</a></li>
+            <li><a href="#" style="font-family: 'Roboto Slab',sans-serif;">Home</a></li>
+                <li><a href="#" style="font-family: 'Roboto Slab',sans-serif;">About me</a></li>
+                <li><a href="#" style="font-family: 'Roboto Slab',sans-serif;">Works</a></li>
+                <li><a href="#" style="font-family: 'Roboto Slab',sans-serif;">Experience</a></li>
+                <li><a href="#contact" style="font-family: 'Roboto Slab',sans-serif;">Contact</a></li>
           </ul>
         
     </section>
 
-    <section class="fslider">
+    <section class="fslider" id="home">
         <div class="slider" indicators="false">
             <ul class="slides">
                 <li>
-                    <img src="images/slide1.jpg" alt="image one">
-                    <div class="caption center-align black-text">
-                        <h3>Portfolio Images</h3>
-                        <h5 class="light text-lighten-3">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia consequuntur suscipit enim eligendi quas.
-                        </h5>
-                    </div>
+                    <img src="assets/Untitled_Panorama-1.png" alt="image one">
                 </li>
                 <li>
-                    <img src="images/slide2.jpg" alt="image one">
-                    <div class="caption center-align black-text">
-                        <h3>Portfolio Images</h3>
-                        <h5 class="light text-lighten-3">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia consequuntur suscipit enim eligendi quas.
-                        </h5>
-                    </div>
+                    <img src="assets/DJI_0173.jpg" alt="image one">
+                </li>
+                <li>
+                    <img src="assets/DJI_0h105.jpg" alt="image one">
                 </li>
             </ul>
         </div>
         
     </section>
 
-    <section class="descrip">
+    <section class="descrip" id="aboutMe">
         <div class="section white center">
-            <h2 class="header">About Me</h2>
+            <h2 class="header" style="font-family: 'Roboto Slab',sans-serif;">About Me</h2>
             <div class="row container center move">
                 <div class="col center l4 s12">
-                    <img src="images/aboutme.jpg" alt="prject" style="object-fit: contain;" width="auto" height="200">
+                    <img src="assets/dp.png" alt="prject" style="object-fit: contain;" width="auto" height="300">
                 </div>
                 <div class="col right l8 s12 ">
                     <div class="row container center move">
-                        <h4 style="margin-left:15%;">Ram Rishandhan</h4>
-                        <p style="margin-left:15%; font-size: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, culpa!</p>
+                        <p style="margin-left:15%; font-size: 20px; font-family: 'Roboto Slab',sans-serif;">Bonjour! I Am Rishandhan, 
+I am a Freelance Photographer. I've always wonder how this world works and luckily I got a Camera to Freeze those Precious Moments. Well, Have a good time & Have a Good look at my Pictures.</p>
                     </div>
                 </div>
                 
@@ -139,62 +133,88 @@
         
     <div class="parallax-container">
         <div class="parallax-container">
-            <div class="parallax"><img src="images/parallex.jpg"></div>
+            <div class="parallax"><img src="assets/boat.jpg" style="height: 1100px;"></div>
         </div>
     </section>
 
-    <section class="fabout">
+    <section class="fabout" id="service">
         <div class="section white center">
             <div class="row container">
-                <h2 class="header">Services</h2>
-                <p class="grey-text text-darken-3">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore ipsa repudiandae excepturi quisquam ea sapiente est adipisci consectetur deserunt voluptatum facilis, ad eaque fugit at! Alias eaque eveniet repellat aliquid et aperiam quam saepe soluta quidem, reiciendis sed, ullam aliquam dolorum dolorem culpa, adipisci exercitationem odit quis necessitatibus inventore! Itaque?
+                <h2 class="header" style="font-family: 'Roboto Slab',sans-serif;">Services</h2>
+                <p class="grey-text text-darken-3" style="font-family: 'Roboto Slab',sans-serif;">
+                    Precious Moments are to be captured and we capture that for you in a Perfect Way! We Provide an Excellent Services on 
+                    • Pre Wedding & Wedding Shoots•Events 
+                    • Aerial Photography 
+                    • Cinematography 
+                    • Corprate and Ads 
+                    • Modelling Shoots
                 </p>
             </div>
         </div>
     </section>
 
 
-    <section class="fservices" id="service">
+    <section class="fservices">
         <div class="row" style="padding-left: 50px; padding-right: 50px">
             <div class="col s12 l4 center" style="padding: 50px 50px;">
-                <i class="large material-icons icon-coffee">dock</i>
-                <h5 class="header">Photo Shoot</h5>
+                <img src="assets/camera.png" alt="service1" style="object-fit: contain;" width="100px">
+                <h5 class="header" style="font-family: 'Roboto Slab',sans-serif;">Photo Shoot</h5>
             </div>
             <div class="col s12 l4 center" style="padding: 50px 50px;">
-                <i class="large material-icons icon-coffee">dock</i>
-                <h5 class="header">Cinematography</h5>
+                <img src="assets/video-camera.png" alt="service1" style="object-fit: contain;" width="100px">
+                <h5 class="header" style="font-family: 'Roboto Slab',sans-serif;">Cinematography</h5>
             </div>
             <div class="col s12 l4 center" style="padding: 50px 50px;">
-                <i class="large material-icons icon-coffee">dock</i>
-                <h5 class="header">Editing</h5>
+                <img src="assets/edit-video.png" alt="service1" style="object-fit: contain;" width="100px">
+                <h5 class="header" style="font-family: 'Roboto Slab',sans-serif;">Editing</h5>
             </div>
         </div>
     </section>
 
-    <section class="fgallery">
+    <section class="fgallery" id="gallery">
         <div class="container">
-            <h2 class="center">My Gallery</h2>
+            <h2 class="center" style="font-family: 'Roboto Slab',sans-serif;">My Gallery</h2>
             <div class="row card">
                 <div class="col s12 m6 l4">
-                    <img src="images/gallery/g1.jpg" class="responsive-img card image materialbox" alt="G1" >
+                    <img src="assets/gallery/_MG_0035-5.jpg" class="responsive-img card image materialbox" alt="G1" >
                 </div>
                 <div class="col s12 m6 l4">
-                    <img src="images/gallery/g2.jpg" class="responsive-img card image materialbox" alt="G1">
+                    <img src="assets/gallery/_MG_8300.jpg" class="responsive-img card image materialbox" alt="G1">
                 </div>
                 <div class="col s12 m6 l4">
-                    <img src="images/gallery/g3.jpg" class="responsive-img card image materialbox" alt="G1">
+                    <img src="assets/gallery/_MG_8434.jpg" class="responsive-img card image materialbox" alt="G1">
                 </div>
                 <div class="col s12 m6 l4">
-                    <img src="images/gallery/g4.jpg" class="responsive-img card image materialbox" alt="G1">
+                    <img src="assets/gallery/10.jpg" class="responsive-img card image materialbox" alt="G1">
                 </div>
                 <div class="col s12 m6 l4">
-                    <img src="images/gallery/g5.jpg" class="responsive-img card image materialbox" alt="G1">
+                    <img src="assets/gallery/13.jpg" class="responsive-img card image materialbox" alt="G1">
                 </div>
                 <div class="col s12 m6 l4">
-                    <img src="images/gallery/g6.jpg" class="responsive-img card image materialbox" alt="G1">
+                    <img src="assets/gallery/DSC06994-5.jpg" class="responsive-img card image materialbox" alt="G1">
                 </div>
-    
+                
+                <div class="col s12 m6 l4">
+                    <img src="assets/gallery/Hero pic.jpg" class="responsive-img card image materialbox" alt="G1">
+                </div>
+                <div class="col s12 m6 l4">
+                    <img src="assets/g5.jpg" class="responsive-img card image materialbox" alt="G1">
+                </div>
+                <div class="col s12 m6 l4">
+                    <img src="assets/gallery/Parotta + CHicken curry.jpg" class="responsive-img card image materialbox" alt="G1">
+                </div>
+
+                
+                <div class="col s12 m6 l4">
+                    <img src="assets/gallery/DJI_0317.jpg" class="responsive-img card image materialbox" alt="G1">
+                </div>
+                <div class="col s12 m6 l4">
+                    <img src="assets/gallery/1123_1.jpg" class="responsive-img card image materialbox" alt="G1">
+                </div>
+                <div class="col s12 m6 l4">
+                    <img src="assets/gallery/IMG_4426.jpg" class="responsive-img card image materialbox" alt="G1">
+                </div>
+                
             </div>
         </div>
     </section>
@@ -204,7 +224,7 @@
             <video autoplay playsinline muted loop>
               <source src="videos/sampleVedio.mp4" type="video/mp4" />
             </video>
-            <h2>video Creations</h2>
+            <h2 style="font-family: 'Roboto Slab',sans-serif;">video Creations</h2>
             <script>
               document.querySelector('video').playbackRate = 1.5;
             </script>
@@ -212,14 +232,14 @@
     </section>
 
     <section class="myvideo">
-        <video autoplay playsinline muted loop width="100%">
-            <source src="videos/sampleVedio.mp4" type="video/mp4" />
+        <video autoplay playsinline loop width="100%">
+            <source src="assets/video/100th post.mp4" type="video/mp4" />
           </video>
     </section>
 
-    <section class="favreviews" ">
+    <section class="favreviews" >
         <div class="section white center">
-            <h3 class="header" style="margin-top: 20px;">Customer Reviews</h3>
+            <h3 class="header" style="margin-top: 20px; font-family: 'Roboto Slab',sans-serif;">Customer Reviews</h3>
             <div class="carousel myreviews" style="margin-bottom: 10px;">
                 <a href="#" class="carousel-item">
                     <div class="row">
@@ -297,10 +317,10 @@
 
     <!-- Need to add Email of rishandhan to reidrect mail in "action" of form  -->
      
-    <section class="fform">
+    <section class="fform" id="contact">
         <div class="container" style="max-width: 800px;">
             <div class="row">
-                <h3 class="center">Contact Me</h3>
+                <h3 class="center" style="font-family: 'Roboto Slab',sans-serif;">Let's Talk</h3>
                 <form class="col s12" id="my-form" action="" method="POST">
                     <div class="input-field col s12">
                       <input id="name" type="text" class="validate" name="Name">
@@ -318,8 +338,8 @@
                       </div>
 
                   <div class="input-field col s12">
-                    <textarea id="message" class="materialize-textarea" style="height: 100px;" name="Message"></textarea>
-                    <label for="message">Message</label>
+                    <textarea id="message" class="materialize-textarea" style="height: 100px; color : black" name="Message"></textarea>
+                    <label for="message" style="color: black;" >Message</label>
                   </div>
                   <div class="input-field col s12">
                     <button class="btn wave-effect waves-light" type="submit" style="width: 100%; background-color: #292929;">
@@ -346,6 +366,7 @@
                         <ul>
                             <li><a href="#" class="grey-text">Facebook</a></li>
                             <li><a href="#" class="grey-text">Youtube</a></li>
+                            <i class="fab fa-instagram"></i>
                             <li><a href="#" class="grey-text">Instagram</a></li>
                         </ul>
                     </div>
