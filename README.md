@@ -13,7 +13,7 @@ A simple portfolio website for a cinematographer.
   
 ### Website Link
 
-[a link](https://richiecreations.netlify.app/)
+[www.RicheCreations.com](https://richiecreations.netlify.app/)
 
 ### Pull Request
 Pull Requests are welcome. Please follow these rules for the ease of understanding:
